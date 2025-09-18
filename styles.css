@@ -4,9 +4,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #000000;
-    background-image: linear-gradient(to bottom, #000033, #000000);
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #000;
+    background-image: radial-gradient(circle, #000033, #000000),
+    repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 0, 51, 0.5) 10px, rgba(0, 0, 51, 0.5) 20px);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     flex-direction: column;
 }
 
@@ -15,6 +16,7 @@ body {
 }
 
 h1 {
+    font-family: 'Georgia', serif;
     font-size: 3.5em;
     color: #FFFFFF;
     text-shadow: 2px 2px 8px #00BFFF;
@@ -68,7 +70,7 @@ h1 {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 400px;
+  max-width: 300px;
   position: relative;
   margin: auto;
 }
